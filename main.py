@@ -16,7 +16,7 @@ def welcome(message):
 	markup = types.ReplyKeyboardMarkup(resize_keyboard=True)
 	item1 = types.KeyboardButton("❤️ Дела сердечные")
 	item2 = types.KeyboardButton("Что ждет меня в будущем?")
-	item3 = types.KeyboardButton("Жмакай если хочешь увидеть фото моего создателя 😍")
+	item3 = types.KeyboardButton("Фото создателя 😍")
 
 	markup.add(item1, item2, item3)
 
