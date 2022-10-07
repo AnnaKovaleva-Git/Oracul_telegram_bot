@@ -37,7 +37,7 @@ def lalala(message):
 			bot.send_message(message.chat.id, predictions2[randint(0, len(predictions2)-1)])
 		elif message.text == 'Жмакай если хочешь увидеть фото моего создателя 😍':
 			sti = open('photo_2022.webp', 'rb')
-			bot.send_sticker(message.chat.id, sti)
+			bot.send_photo(message.chat.id, sti)
 		else:
 			bot.send_message(message.chat.id, 'Я не понимаю твой язык!')
 
