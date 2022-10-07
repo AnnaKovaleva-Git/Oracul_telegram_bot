@@ -35,7 +35,7 @@ def lalala(message):
 			bot.send_message(message.chat.id, predictions1[randint(0, len(predictions1)-1)])
 		elif message.text == 'Что ждет меня в будущем?':
 			bot.send_message(message.chat.id, predictions2[randint(0, len(predictions2)-1)])
-		elif message.text == 'Жмакай если хочешь увидеть фото моего создателя 😍':
+		elif message.text == 'Фото создателя 😍':
 			sti = open('photo_2022.webp', 'rb')
 			bot.send_photo(message.chat.id, sti)
 		else:
